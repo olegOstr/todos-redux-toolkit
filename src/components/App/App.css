@@ -1,0 +1,13 @@
+.App {
+    text-align: center;
+}
+
+.App h1 {
+    font-size: 5vw;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
