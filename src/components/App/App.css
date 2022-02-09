@@ -65,3 +65,31 @@
 input:checked + span {
     text-decoration: line-through;
 }
+
+@media (max-width: 992px) {
+    .App h1 {
+        font-size: 10vw;
+    }
+}
+
+@media (max-width: 520px) {
+    .todo__input {
+        margin: 10px;
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    label {
+        display: block;
+        margin: 40px 0;
+    }
+
+    .todo__item {
+        margin-right: auto;
+        font-size: 1.1rem;
+        line-height: 1.8;
+    }
+}
